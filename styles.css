@@ -1,0 +1,143 @@
+/* sections */
+body{
+  background-color: #ebf3f6;
+  font-family: Montserrat;
+  color: #848585;
+}
+
+h1,h2,h3,h4 {
+  margin-bottom: 2rem;
+}
+
+.white-container{
+  background-color: #ffffff;
+  margin: 2% 4% 0;
+}
+
+.coloured-container{
+  background-color: #ebf3f6;
+  margin: 2% 4% 0;
+}
+
+.navbar-bgcolor{
+  background-color: #ebf3f6;
+}
+
+.navbar{
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+.navbar-logo-icon{
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.navbar-brand{
+  letter-spacing: .2rem;
+}
+
+/* logo section */
+.img-intro{
+  width: 45%;
+  display: block;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* contact section */
+ .contact-section{
+   font-family: Kodchasan, Montserrat;
+   text-align: center;
+   padding: 3% 10% 3%;
+ }
+
+ .logo-img{
+   width: 100px;
+   margin: 10px;
+   border-radius: 50%;
+ }
+
+/* about me section */
+.table-aboutme{
+  line-height: 1.5;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.lr-aboutme{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.rr-aboutme{
+  padding-left: 1%;
+  padding-right: 10%;
+}
+
+.img-aboutme{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.occupation-txt{
+  font-size: .8rem;
+}
+
+/* services section */
+.container-services{
+  padding: 100px 10%;
+}
+
+.icon-row{
+  line-height: 1.5rem;
+  text-align: center;
+  padding: 5rem 10% 2rem;
+}
+
+.circle-icon {
+    /* background: #ebf3f6; */
+    background: #ddebf0;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.pricing-section{
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+#pricing b{
+  font-weight: 600;
+}
+
+
+
+@media (max-width: 990px){
+  .table-aboutme{
+    text-align: center;
+  }
+  .img-aboutme{
+    width: 250px;
+  }
+}
+
+
+
+
+#footer{
+  font-size: 0.8rem;
+  padding: 100px 4% 4%;
+}
