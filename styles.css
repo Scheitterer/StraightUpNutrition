@@ -2,6 +2,7 @@
 body{
   background-color: #ebf3f6;
   font-family: Montserrat;
+  font-size: 1.125rem;
   color: #848585;
 }
 
@@ -25,6 +26,7 @@ h1,h2,h3,h4 {
 
 .navbar{
   font-family: Montserrat;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
@@ -35,7 +37,14 @@ h1,h2,h3,h4 {
 }
 
 .navbar-brand{
+  font-size: 1.375;
   letter-spacing: .2rem;
+}
+
+.note{
+  color: #c3c3c3;
+  font-size: 1rem;
+  font-style: italic;
 }
 
 /* logo section */
@@ -63,23 +72,23 @@ h1,h2,h3,h4 {
  }
 
 /* about me section */
-.table-aboutme{
+.table-about{
   line-height: 1.5;
   padding-top: 5rem;
   padding-bottom: 4rem;
 }
 
-.lr-aboutme{
+.lr-about{
   padding-left: 10%;
   padding-right: 10%;
 }
 
-.rr-aboutme{
+.rr-about{
   padding-left: 1%;
   padding-right: 10%;
 }
 
-.img-aboutme{
+.img-about{
   width: 100%;
   display: block;
   margin-left: auto;
@@ -126,10 +135,10 @@ h1,h2,h3,h4 {
 
 
 @media (max-width: 990px){
-  .table-aboutme{
+  .table-about{
     text-align: center;
   }
-  .img-aboutme{
+  .img-about{
     width: 250px;
   }
 }
